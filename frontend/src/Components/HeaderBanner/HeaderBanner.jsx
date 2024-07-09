@@ -18,7 +18,9 @@ function HeaderBanner() {
     <div className="max-h-[600px]">
       <div className="relative">
         <Swiper
-         pagination={true}
+          pagination={{
+            clickable: true,
+          }}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
@@ -26,7 +28,7 @@ function HeaderBanner() {
             disableOnInteraction: false,
           }}
           loop={true}
-          modules={[Autoplay,Pagination]}
+          modules={[Pagination,Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide className="w-[20px] ">
