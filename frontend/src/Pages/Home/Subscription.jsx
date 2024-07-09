@@ -2,7 +2,7 @@
 
 const Subscription = () => {
   return (
-    <div className="bg-white shadow-md rounded-lg p-8 max-w-7xl  mx-auto">
+    <div className="bg-white shadow-md rounded-lg p-8 max-w-7xl  mx-auto my-10">
       <div className="flex flex-col md:flex-row justify-evenly  items-center">
         <div className="mb-4 mt-4 w-full mr-20">
           <h2 className="text-3xl font-bold">Join Our Newsletter To Get Offers</h2>

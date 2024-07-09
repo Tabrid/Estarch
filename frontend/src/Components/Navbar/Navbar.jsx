@@ -1,70 +1,62 @@
+import { BiMessageAltDots } from "react-icons/bi";
+import { FaGooglePlay } from "react-icons/fa";
+import { FaApple } from "react-icons/fa6";
+import { CgProfile } from "react-icons/cg";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
+import { CiSearch } from "react-icons/ci";
 
 
 function Navbar() {
   return (
-    <div>
-      <div className="navbar bg-base-100">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h7" />
-              </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Homepage</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>About</a></li>
-            </ul>
+    <div className="">
+      <div className=" px-10 navbar bg-base-100 border-b">
+        <div className="navbar-start gap-4">
+          <div className="flex items-center gap-1 justify-center">
+            <BiMessageAltDots className="w-[16px]" />
+            <p className="text-xs">Contact Us</p>
+          </div>
+          <div className="flex items-center justify-center gap-2">
+            <p className="text-xs">Download app</p>
+            <p className="w-[20px] h-[20px]  border flex items-center justify-center"><FaGooglePlay className="w-[14px]" /></p>
+            <p className="w-[20px] h-[20px]  border flex items-center justify-center"><FaApple className="w-[14px]" /></p>
+
           </div>
         </div>
         <div className="navbar-center">
-          <img className="h-10" src="https://estarch.com.bd/image/LOGO%201.png" alt="logo"  />
+          <img className="h-8" src="https://estarch.com.bd/image/LOGO%201.png" alt="logo" />
         </div>
         <div className="navbar-end">
-          <button className="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </button>
-          <button className="btn btn-ghost btn-circle">
-            <div className="indicator">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-              </svg>
-              <span className="badge badge-xs badge-primary indicator-item"></span>
-            </div>
-          </button>
+          <div className="flex items-center gap-1 justify-center">
+            <CgProfile className="w-[16px]" />
+            <p className="text-xs">Log In / Sign Up</p>
+          </div>
+          <div>
+            <select className="select  text-xs">
+              <option >BD</option>
+              <option>Int.</option>
+            </select>
+          </div>
         </div>
+      </div>
+      <div className="flex justify-between px-10 mt-10">
+        <div className="flex w-fit items-center justify-center">
+          <CiSearch className="text-2xl"/>
+          <input type="text" placeholder="search product" />
+        </div>
+        <div className="flex gap-4 justify-center items-center">
+            <p> SUMMER</p>
+            <p> WOMEN</p>
+            <p> MEN</p>
+            <p> TEEN</p>
+            <p> KIDS</p>
+            <p> NARGISUS</p>
+            <p> HOME DECOR</p>
+        </div>
+        <div className="relative w-[60px]">
+          <HiOutlineShoppingBag className="relative text-2xl" />
+          <p className="bg-red-600 text-white  rounded-full absolute bottom-0 right-8 w-4 h-4 text-xs text-center">0</p>
+        </div>
+
       </div>
     </div>
   )
