@@ -1,7 +1,11 @@
+import Service from "../../Components/Service/Service"
+import Subscription from "./Subscription"
+
 function Home() {
   return (
     <div>
-      <h1>home page</h1>
+      <Service/>
+      <Subscription /> 
     </div>
   )
 } 
