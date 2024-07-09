@@ -59,7 +59,7 @@ const BestSell = () => {
             <h2 className="md:card-title">Premium Solid T Shirt for Men I MF-432</h2>
             <p className='md:text-[20px] text-gray-500'>TK. 999 <span className='md:text-[17px] line-through'>Tk. 1499</span></p>
             <div className="card-actions justify-center">
-              <button className="btn btn-sm mt-4">Add Card</button>
+              <button className="btn btn-sm mt-4 px-12 shadow-md">Buy Now</button>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ const BestSell = () => {
             <h2 className="md:card-title">Premium Solid T Shirt for Men I MF-432</h2>
             <p className='md:text-[20px] text-gray-500'>TK. 999 <span className='md:text-[17px] line-through'>Tk. 1499</span></p>
             <div className="card-actions justify-center">
-              <button className="btn btn-sm mt-4">Add Card</button>
+              <button className="btn btn-sm mt-4 px-12 shadow-md">Buy Now</button>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ const BestSell = () => {
             <h2 className="md:card-title">Premium Solid T Shirt for Men I MF-432</h2>
             <p className='md:text-[20px] text-gray-500'>TK. 999 <span className='md:text-[17px] line-through'>Tk. 1499</span></p>
             <div className="card-actions justify-center">
-              <button className="btn btn-sm mt-4">Add Card</button>
+              <button className="btn btn-sm mt-4 px-12 shadow-md">Buy Now</button>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const BestSell = () => {
             <h2 className="md:card-title">Premium Solid T Shirt for Men I MF-432</h2>
             <p className='md:text-[20px] text-gray-500'>TK. 999 <span className='md:text-[17px] line-through'>Tk. 1499</span></p>
             <div className="card-actions justify-center">
-              <button className="btn btn-sm mt-4">Add Card</button>
+              <button className="btn btn-sm mt-4 px-12 shadow-md">Buy Now</button>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ const BestSell = () => {
             <h2 className="md:card-title">Premium Solid T Shirt for Men I MF-432</h2>
             <p className='md:text-[20px] text-gray-500'>TK. 999 <span className='md:text-[17px] line-through'>Tk. 1499</span></p>
             <div className="card-actions justify-center">
-              <button className="btn btn-sm mt-4">Add Card</button>
+              <button className="btn btn-sm mt-4 px-12 shadow-md">Buy Now</button>
             </div>
           </div>
         </div>
